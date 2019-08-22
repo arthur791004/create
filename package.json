@@ -1,0 +1,28 @@
+{
+  "name": "@arthur791004/newbie",
+  "version": "0.0.1",
+  "description": "a tool for newbie to quickly initialize project",
+  "main": "./src/newbie.js",
+  "bin": "./bin/newbie.js",
+  "repository": "https://github.com/arthur791004/create",
+  "author": "Arthur <arthur791004@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint:eslint": "eslint --ignore-path .gitignore",
+    "release": "yarn publish --access public"
+  },
+  "dependencies": {
+    "chalk": "~2.4.2",
+    "cross-spawn": "~6.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "~10.0.2",
+    "eslint": "~6.2.1",
+    "eslint-config-airbnb-base": "~14.0.0",
+    "eslint-config-prettier": "~6.1.0",
+    "eslint-plugin-import": "~2.18.2",
+    "husky": "~3.0.4",
+    "lint-staged": "~9.2.3",
+    "prettier": "~1.18.2"
+  }
+}

@@ -1,0 +1,6 @@
+# inject by @arthur/newbie
+node_modules
+yarn-error.log
+build
+coverage
+.vscode
