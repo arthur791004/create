@@ -1,6 +1,6 @@
 {
   "name": "@arthur791004/newbie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a tool for newbie to quickly initialize project",
   "main": "./src/newbie.js",
   "bin": "./bin/newbie.js",
